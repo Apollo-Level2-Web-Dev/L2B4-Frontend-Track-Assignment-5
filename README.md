@@ -83,6 +83,7 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 - ✅ GitHub Repository with a well-documented README.md.
 - ✅ Live Deployment Link (Vercel).
 - ✅ Demo Video (3-5 minutes) explaining the features.
+- ✅ admin credential 
 
 
 ## Deadline:

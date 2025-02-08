@@ -29,21 +29,21 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 
 ---
 
-### 2️⃣ Admin Dashboard (Only for Logged-in Users)
+### 2️⃣ Dashboard (Only for Logged-in Users)💡
 
-#### ✅ Admin Login (/admin)
-- Simple email-password authentication using JWT or localStorage.
-- Only admins can access the dashboard.
+#### ✅ Login (/dashboard)
+- Social login using Next Auth.
+- Only authenticated users can access the dashboard. 
 
-#### ✅ Blog Management (/admin/blogs)
-- Create, edit, or delete blog posts.
-- Form to add a title, content, image, and category.
+#### ✅ Blog Management (/dashboard/blogs)
+- Create, read, edit, or delete blog posts.
+- Form with related fields like title, content, image, and category.
 
-#### ✅ Project Management (/admin/projects)
+#### ✅ Project Management (/dashboard/projects)
 - CRUD operations (Create, Read, Update, Delete) for projects.
-- Upload project images and descriptions.
+- Upload project image, title, live link, descriptions, etc.
 
-#### ✅ Message Management (/admin/messages)
+#### ✅ Message Management (/dashboard/messages)
 - View messages submitted from the contact form.
 
 ---
@@ -52,16 +52,14 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 
 ### ✅ Frontend
 - Next.js with TypeScript.
-- Use Tailwind CSS for styling or any kind of ui library or framework.
+- Use Tailwind CSS for styling or any kind of UI library or framework.
 - Implement dynamic routes (/projects/[id], /blog/[id]).
-- Client-side authentication using localStorage or JWT.
 
 ### ✅ Database
 - MongoDB.
 
-### ✅ Authentication & Authorization
-- JWT-based authentication for admin login.
-- Role-based access control (Admin/User).
+### ✅ Authentication & Authorization💡
+- Social login using Next Auth.
 
 ### ✅ Deployment
 - Deploy the website on Vercel.
@@ -70,9 +68,9 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 ---
 
 ## 🎁 Bonus Features
-- Use Next.js API routes (/api/...).
+- Use Next.js API routes (/api/...). (optional) 💡
 - Add a dark mode toggle.
-- Use Markdown for blog content.
+- Use Markdown for blog content. (optional)💡
 - Implement server-side rendering (SSR) for better SEO.
 - Use SSR, SSG, and metadata based on the use case.
 - Add animations using Framer Motion or any other animation library.
@@ -83,7 +81,6 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 - ✅ GitHub Repository with a well-documented README.md.
 - ✅ Live Deployment Link (Vercel).
 - ✅ Demo Video (3-5 minutes) explaining the features.
-- ✅ admin credential 
 
 
 ## Deadline:

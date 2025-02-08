@@ -55,10 +55,14 @@ Build a personal portfolio and blog website using Next.js. This project will hel
 - Use Tailwind CSS for styling or any kind of UI library or framework.
 - Implement dynamic routes (/projects/[id], /blog/[id]).
 
+### ✅ Backend💡
+- Create a simple backend using Node/Express to manage Blog, Project, and other essential data.  
+- Backend API can be accessible publicly.
+
 ### ✅ Database
 - MongoDB.
 
-### ✅ Authentication & Authorization💡
+### ✅ Authentication💡
 - Social login using Next Auth.
 
 ### ✅ Deployment
